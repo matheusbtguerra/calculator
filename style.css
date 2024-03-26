@@ -1,17 +1,5 @@
 @charset "utf-8";
 
-.video {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    position: absolute;
-    top:0;
-    filter: blur(3px);
-}
-
 body {
     background-image: url(https://cdn.pixabay.com/photo/2020/02/28/20/24/baby-monkey-4888534_1280.jpg);
     background-size: cover;
@@ -35,6 +23,7 @@ h1 {
     border: solid green;
     padding: 1%;
     background-color: greenyellow;
+    margin-top: 10%;
 }
 
 #calculator {
